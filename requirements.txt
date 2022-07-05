@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+statsmodels
+tensorflow
+python-codicefiscale
+matplotlib==3.1.3
+scikit-learn
+tensorflow-addons
+pydot
+cycler
+tensorflow_decision_forests
