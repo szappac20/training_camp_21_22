@@ -1,0 +1,647 @@
+{
+	"source": "energy-simulazione",
+	"sourceVersion": "1.28.70",
+	"eventType": "simulazione",
+	"eventCategory": "ENERG",
+	"fiscalID": "VRLNDR57L30H501M",
+	"cluster": "on-prem",
+	"eventTime": "2021-12-06T16:15:58.785Z",
+	"instanceID": "61feddda-fb17-4c99-a2e1-85486c9e2976",
+	"stepName": "Simulazione",
+	"data": {
+		"cpq_codvista": "ENERG"
+	},
+	"contextData": {
+		"stepID": "energy-simulazione",
+		"workstation": "02",
+		"office": "55111",
+		"operation": "",
+		"sessionID": "",
+		"correlationID": "",
+		"channel": "UP",
+		"operatorID": "FIA9COAC",
+		"roleID": ""
+	},
+	"bamData": {
+		"items": {
+			"64936980-6136-4bdc-94e3-d30f68599649": {
+				"addresses": [
+					{
+						"attributes": [],
+						"certificationDate": "2022-01-27T17:30:18Z",
+						"city": {
+							"code": "A089",
+							"value": "AGRIGENTO"
+						},
+						"country": {
+							"code": "IT",
+							"value": "ITALIA"
+						},
+						"dug": "VIA",
+						"fullAddress": "VIA ROMA 1",
+						"geolocalizationId": "",
+						"modified": false,
+						"normalized": true,
+						"number": "1",
+						"province": {
+							"code": "AG",
+							"value": "AGRIGENTO"
+						},
+						"shortAddress": "VIA ROMA",
+						"toponym": "ROMA",
+						"type": {
+							"code": "2",
+							"value": "RESIDENZA"
+						},
+						"zipCode": {
+							"code": "92100",
+							"value": "92100"
+						},
+						"customData": {
+							"dataModified": true,
+							"escludiNormalizzazione": true,
+							"modificaIndirizzoParticolareDiRapporto": false
+						}
+					},
+					{
+						"attributes": [],
+						"certificationDate": "2022-01-27T17:30:18Z",
+						"city": {
+							"code": "A089",
+							"value": "AGRIGENTO"
+						},
+						"country": {
+							"code": "IT",
+							"value": "ITALIA"
+						},
+						"dug": "VIA",
+						"fullAddress": "VIA ROMA 1",
+						"geolocalizationId": "",
+						"modified": false,
+						"normalized": true,
+						"number": "1",
+						"province": {
+							"code": "AG",
+							"value": "AGRIGENTO"
+						},
+						"shortAddress": "VIA ROMA",
+						"toponym": "ROMA",
+						"type": {
+							"code": "6",
+							"value": "DOMICILIO"
+						},
+						"zipCode": {
+							"code": "92100",
+							"value": "92100"
+						},
+						"customData": {
+							"dataModified": true,
+							"sameAsResidenza": true,
+							"escludiNormalizzazione": true,
+							"modificaIndirizzoParticolareDiRapporto": false
+						}
+					}
+				],
+				"advancedEletronicSignatures": [],
+				"attributes": [],
+				"bankAccounts": [],
+				"classification": {
+					"code": "R",
+					"value": "RETAIL"
+				},
+				"emails": [
+					{
+						"email": "testpis_126@poste.it",
+						"PEC": false,
+						"type": {
+							"code": "2",
+							"value": "EMAIL"
+						},
+						"customData": {
+							"dataModified": true,
+							"asyncCertification": true
+						}
+					}
+				],
+				"id": "64936980-6136-4bdc-94e3-d30f68599649",
+				"idAUC": "1412916381",
+				"legalForm": {
+					"code": "PF",
+					"value": "PERSONA FISICA"
+				},
+				"legalInfo": {
+					"attributes": [],
+					"businessActivities": [
+						{
+							"type": "SAE",
+							"code": "0600",
+							"description": "FAMIGLIE CONSUMATRICI"
+						},
+						{
+							"type": "RAE",
+							"code": "0000",
+							"description": "NON VALORIZZABILE"
+						},
+						{
+							"type": "CIAE",
+							"code": "6093",
+							"description": "ALTRE PERSONE FISICHE"
+						}
+					],
+					"salesPoints": [],
+					"subscriptions": [],
+					"websites": []
+				},
+				"legalNature": "PF",
+				"personInfo": {
+					"birthCity": {
+						"code": "A944",
+						"value": "BOLOGNA"
+					},
+					"birthCountry": {
+						"code": "IT",
+						"value": "ITALIA"
+					},
+					"birthProvince": {
+						"code": "BO",
+						"value": "BOLOGNA"
+					},
+					"citizenshipNoUSA": false,
+					"citizenships": [
+						{
+							"country": {
+								"code": "IT",
+								"value": "ITALIA"
+							}
+						}
+					],
+					"digitalIdentity": {
+						"username": "testpis_126@poste.it",
+						"userId": "desiderata.bp",
+						"customData": {
+							"GetUserDataByTaxcodeResponse": {
+								"operationCode": "0",
+								"operationDescription": "operation ok",
+								"reasonCode": "0",
+								"reasonDescription": "no reason",
+								"active": true,
+								"contacts": {
+									"email": "testpis_126@poste.it",
+									"mobileNationCode": "IT",
+									"mobileNumber": "3481256647",
+									"mobilePrefix": "0039"
+								},
+								"domicile": {
+									"addressId": "0",
+									"dug": "VIA",
+									"nation": {
+										"code": "IT",
+										"description": "ITALIA"
+									},
+									"normalized": true,
+									"province": {
+										"code": "AG",
+										"description": "AGRIGENTO"
+									},
+									"streetNumber": "1",
+									"toponym": "ROMA",
+									"town": {
+										"code": "A089",
+										"description": "AGRIGENTO"
+									},
+									"zipCode": "92100"
+								},
+								"emailAlias": "testpis_126@poste.it",
+								"residence": {
+									"addressId": "0",
+									"dug": "VIA",
+									"nation": {
+										"code": "IT",
+										"description": "ITALIA"
+									},
+									"normalized": true,
+									"province": {
+										"code": "AG",
+										"description": "AGRIGENTO"
+									},
+									"streetNumber": "1",
+									"toponym": "ROMA",
+									"town": {
+										"code": "A089",
+										"description": "AGRIGENTO"
+									},
+									"zipCode": "92100"
+								},
+								"userid": "desiderata.bp"
+							},
+							"GetUserProfilesResponse": {
+								"operationCode": "0",
+								"operationDescription": "operation ok",
+								"reasonCode": "0",
+								"profiles": [
+									"id-privata-strong",
+									"posteit-noticeboard",
+									"id-privata-base",
+									"posteit-base"
+								]
+							},
+							"registered": "Y",
+							"contextualRegistration": "N"
+						}
+					},
+					"economicClassification": [],
+					"firstName": "Desiderata",
+					"gender": {
+						"code": "F",
+						"value": "FEMMINA"
+					},
+					"lastName": "Bp",
+					"customData": {
+						"customerCodes": [
+							{
+								"code": "ID_ANAG",
+								"value": "55312368",
+								"customData": {
+									"stato": {
+										"chiave": "C",
+										"valore": "CENSITO"
+									}
+								}
+							},
+							{
+								"code": "ID_CRMO",
+								"value": "3981148401"
+							},
+							{
+								"code": "ID_AUC",
+								"value": "1412916381"
+							}
+						]
+					},
+					"birthDate": "1987-04-15"
+				},
+				"phoneNumbers": [
+					{
+						"type": {
+							"code": "6",
+							"value": "CELLULARE"
+						},
+						"countryCode": {
+							"code": "IT",
+							"value": "+39"
+						},
+						"areaCode": "348",
+						"number": "1256647",
+						"customData": {
+							"dataModified": true,
+							"asyncCertification": true
+						}
+					}
+				],
+				"privacy": {
+					"allRequiredConsentsExpressed": true,
+					"consents": [
+						{
+							"type": "Consenso",
+							"code": "PF1",
+							"value": true
+						},
+						{
+							"type": "Consenso",
+							"code": "PF2",
+							"value": true
+						},
+						{
+							"type": "Consenso",
+							"code": "PF3",
+							"value": true
+						},
+						{
+							"type": "Consenso",
+							"code": "PF4",
+							"value": true
+						}
+					]
+				},
+				"questionnaires": [],
+				"relatedCustomer": [],
+				"taxData": {
+					"taxCode": "BPXDDR87D55A944W",
+					"taxResidences": [
+						{
+							"country": {
+								"code": "IT",
+								"value": "ITALIA"
+							},
+							"nif": "BPXDDR87D55A944W",
+							"flagNoNif": false
+						}
+					],
+					"customData": {
+						"newTaxCode": "BPXDDR87D55A944W"
+					}
+				},
+				"type": {
+					"code": "A",
+					"value": "ACTUAL"
+				},
+				"customData": {
+					"FEA": {
+						"value": "N"
+					},
+					"role_id": "INTPF",
+					"ONEVIEW_MODE": "01",
+					"bicCode": "1412916381",
+					"flagDipendente": "0",
+					"originalAddresses": [
+						{
+							"customData": {
+								"dataModified": false
+							},
+							"type": {
+								"code": "2",
+								"value": "RESIDENZA"
+							},
+							"country": {
+								"code": "IT",
+								"value": "ITALIA"
+							},
+							"province": {
+								"code": "AG",
+								"value": "AGRIGENTO"
+							},
+							"city": {
+								"code": "A089",
+								"value": "AGRIGENTO"
+							},
+							"zipCode": {
+								"code": "92100",
+								"value": "92100"
+							},
+							"dug": "VIA",
+							"toponym": "ROMA",
+							"number": "1",
+							"fullAddress": "VIA ROMA 1",
+							"shortAddress": "VIA ROMA",
+							"normalized": true,
+							"geolocalizationId": "",
+							"modified": false,
+							"certificationDate": "2022-01-27T17:30:18Z"
+						},
+						{
+							"customData": {
+								"dataModified": false
+							},
+							"type": {
+								"code": "6",
+								"value": "DOMICILIO"
+							},
+							"country": {
+								"code": "IT",
+								"value": "ITALIA"
+							},
+							"province": {
+								"code": "AG",
+								"value": "AGRIGENTO"
+							},
+							"city": {
+								"code": "A089",
+								"value": "AGRIGENTO"
+							},
+							"zipCode": {
+								"code": "92100",
+								"value": "92100"
+							},
+							"dug": "VIA",
+							"toponym": "ROMA",
+							"number": "1",
+							"fullAddress": "VIA ROMA 1",
+							"shortAddress": "VIA ROMA",
+							"normalized": true,
+							"geolocalizationId": "",
+							"modified": false,
+							"certificationDate": "2022-01-27T17:30:18Z"
+						}
+					],
+					"collapsedRoleFlags": {
+						"identify": true,
+						"ricercaAnagrafica": true,
+						"showTabs": true,
+						"registryCheck": true,
+						"registryWrite": true,
+						"idAucMandatory": true,
+						"customerCheck": false,
+						"routingCheckService": "012",
+						"routingWriteService": "015",
+						"prepareCustomerMode": "01",
+						"checkFrazionario": true
+					},
+					"anagraficaValidata": true,
+					"scritturaEseguita": true
+				}
+			}
+		},
+		"info": {
+			"lastUpdate": "2022-02-24-16:25:04.657201"
+		}
+	},
+	"customData": {
+		"energy": {
+			"fasciaF0ConsumoFatturatoOCR": "N/A",
+			"fasciaF1ConsumoFatturatoOCR": "N/A",
+			"fasciaF2ConsumoFatturatoOCR": "N/A",
+			"fasciaF3ConsumoFatturatoOCR": "N/A",
+			"fasciaF4ConsumoFatturatoOCR": "N/A",
+			"fasciaF5ConsumoFatturatoOCR": "N/A",
+			"fasciaF6ConsumoFatturatoOCR": "N/A",
+			"tipologiaConsumo": "",
+			"dataInizioConsumo": "",
+			"fasciaF0ConsumoAnnuo": "N/A",
+			"fasciaF1ConsumoAnnuo": "N/A",
+			"fasciaF2ConsumoAnnuo": "N/A",
+			"fasciaF3ConsumoAnnuo": "N/A",
+			"fasciaF4ConsumoAnnuo": "N/A",
+			"fasciaF5ConsumoAnnuo": "N/A",
+			"fasciaF6ConsumoAnnuo": "N/A",
+			"fasciaF0ConsumoDaInizioFornitura": "N/A",
+			"fasciaF1ConsumoDaInizioFornitura": "N/A",
+			"fasciaF2ConsumoDaInizioFornitura": "N/A",
+			"fasciaF3ConsumoDaInizioFornitura": "N/A",
+			"fasciaF4ConsumoDaInizioFornitura": "N/A",
+			"fasciaF5ConsumoDaInizioFornitura": "N/A",
+			"fasciaF6ConsumoDaInizioFornitura": "N/A",
+			"fasciaF0ConsumoFatturato": "N/A",
+			"fasciaF1ConsumoFatturato": "N/A",
+			"fasciaF2ConsumoFatturato": "N/A",
+			"fasciaF3ConsumoFatturato": "N/A",
+			"fasciaF4ConsumoFatturato": "N/A",
+			"fasciaF5ConsumoFatturato": "N/A",
+			"fasciaF6ConsumoFatturato": "N/A",
+			"consumoBollettaCorrenteKWh": "N/A",
+			"consumoBollettaCorrente": "N/A",
+			"commodityAff": "0.015",
+			"nomeAff": "0",
+			"cognomeAff": "0.927",
+			"indirizzoFornituraViaAff": "0.927",
+			"indirizzoFornituraCivicoAff": "0.927",
+			"indirizzoFornituraCapAff": "0.927",
+			"indirizzoFornituraCittaAff": "0.927",
+			"codiceFiscaleAff": "0.927",
+			"emailAff": "N/A",
+			"numeroAff": "N/A",
+			"podAff": "N/A",
+			"spesaMateriaEnergiaAff": "0.927",
+			"pcsClienteAff": "N/A",
+			"potenzaImpegnataAff": "N/A",
+			"consumoAnnuoClienteKwhAff": "N/A",
+			"numeroFasceAff": "N/A",
+			"fasciaF0ConsumoAnnuoAff": "N/A",
+			"fasciaF1ConsumoAnnuoAff": "N/A",
+			"fasciaF2ConsumoAnnuoAff": "N/A",
+			"fasciaF3ConsumoAnnuoAff": "N/A",
+			"fasciaF4ConsumoAnnuoAff": "N/A",
+			"fasciaF5ConsumoAnnuoAff": "N/A",
+			"fasciaF6ConsumoAnnuoAff": "N/A",
+			"fasciaF0ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF1ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF2ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF3ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF4ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF5ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF6ConsumoDaInizioFornituraAff": "N/A",
+			"fasciaF0ConsumoFatturatoAff": "N/A",
+			"fasciaF1ConsumoFatturatoAff": "N/A",
+			"fasciaF2ConsumoFatturatoAff": "N/A",
+			"fasciaF3ConsumoFatturatoAff": "N/A",
+			"fasciaF4ConsumoFatturatoAff": "N/A",
+			"fasciaF5ConsumoFatturatoAff": "N/A",
+			"fasciaF6ConsumoFatturatoAff": "N/A",
+			"consumoDaInizioFornituraKWhAff": "N/A",
+			"residentePuntoFornituraAff": "N/A",
+			"tipoUsoEleAff": "N/A",
+			"dataAttivazioneFornituraAff": "0.927",
+			"dataInizioConsumoAff": "0.0",
+			"dataFineConsumoAff": "0.927",
+			"consumoBollettaCorrenteKWhAff": "N/A",
+			"indirizzoSpedizioneViaAff": "0.927",
+			"indirizzoSpedizioneCivicoAff": "0.927",
+			"indirizzoSpedizioneCapAff": "0.927",
+			"indirizzoSpedizioneCittaAff": "0.927",
+			"mercatoProvenienzaAff": "0.0",
+			"potenzaDisponibileKWAff": "N/A",
+			"tipologiaBollettaAff": "N/A",
+			"tipologiaConsumoBollettaCorrenteAff": "0.0",
+			"pdrAff": "0.927",
+			"tipologiaPdrAff": "N/A",
+			"categoriaUtilizzoAff": "0.0",
+			"consumoDaInizioFornituraAff": "N/A",
+			"codiceREMIAff": "0.927",
+			"consumoProgressivoAff": "N/A",
+			"consumoBollettaCorrenteAff": "0.927",
+			"ragioneSocialeVenditoreUscenteAff": "N/A",
+			"costoEnergiaAff": "N/A",
+			"totaleAnnuoDual": "N/A",
+			"totaleAnnuoConScontiDual": "N/A",
+			"totaleAnnuoConScontiOnTopDual": "N/A",
+			"consumoAnnuoPerCalcoloRataDual": "N/A",
+			"importoMensile": "N/A",
+			"spesaAnnua": "N/A",
+			"spesaAnnuaScontata": "N/A",
+			"consumoAnnuo": "N/A",
+			"validitaPreventivo": "N/A"
+		},
+		"documentId": "bfcd0a7b-8fae-440a-839b-a40dc991cbc4",
+		"setResultCalled": true,
+		"cte": {
+			"dataScadenza": "9999-12-31",
+			"prezzoUnico": "0.52",
+			"dataInizioValidita": "2021-05-01",
+			"dataFineValidita": "9999-12-31"
+		},
+		"dossierCustomerRef": "64936980-6136-4bdc-94e3-d30f68599649",
+		"dossierNumber ": "A000165156"
+	},
+	"technicalData": {
+		"rispostaOCR": {
+			"esitoOCR": "T",
+			"commodityOCR": "GAS",
+			"templateOCR": "N",
+			"nomeOCR": "",
+			"cognomeOCR": "",
+			"nomeViaFornOCR": "VIA GARIBALDI",
+			"numeroCivicoFornOCR": "105",
+			"capFornOCR": "00153",
+			"cittaFornOCR": "ROMA",
+			"provinciaFornOCR": "RM",
+			"codicefiscaleOCR": "",
+			"emailOCR": "N/A",
+			"numeroOCR": "N/A",
+			"pdrOCR": "",
+			"podOCR": "N/A",
+			"spesaPerLaMateriaEnergiaOCR": "",
+			"pcsClientePotereCaloriferoSuperioreOCR": "N/A",
+			"potenzaImpegnataKwOCR": "N/A",
+			"numeroDiFasceOCR": "N/A",
+			"fasciaF0ConsumoAnnuoOCR": "N/A",
+			"fasciaF1ConsumoAnnuoOCR": "N/A",
+			"fasciaF2ConsumoAnnuoOCR": "N/A",
+			"fasciaF3ConsumoAnnuoOCR": "N/A",
+			"fasciaF4ConsumoAnnuoOCR": "N/A",
+			"fasciaF5ConsumoAnnuoOCR": "N/A",
+			"fasciaF6ConsumoAnnuoOCR": "N/A",
+			"fasciaF0ConsumoDaInizioFornituraOCR": "N/A",
+			"fasciaF1ConsumoDaInizioFornituraOCR": "N/A",
+			"fasciaF2ConsumoDaInizioFornituraOCR": "N/A",
+			"fasciaF3ConsumoDaInizioFornituraOCR": "N/A",
+			"fasciaF4ConsumoDaInizioFornituraOCR": "N/A",
+			"fasciaF5ConsumoDaInizioFornituraOCR": "N/A",
+			"fasciaF6ConsumoDaInizioFornituraOCR": "N/A",
+			"consumoDaInizioFornituraOCR": "N/A",
+			"consumoDaInizioFornituraKwhOCR": "N/A",
+			"tipologiaClienteOCR": "0",
+			"residenteOCR": "Y",
+			"dataDiAttivazioneDellaFornituraOCR": "01/03/2017",
+			"dataInizioConsumoOCR": "",
+			"dataFineConsumoOCR": "31/12/2021",
+			"consumoDellaBollettaCorrenteKwhOCR": "N/A",
+			"nomeViaSpedOCR": " ",
+			"numeroCivicoSpedOCR": "",
+			"capSpedOCR": "",
+			"cittaSpedOCR": "",
+			"mercatoDiProvenienzaOCR": "",
+			"potenzaDisponibileKwOCR": "N/A",
+			"tipologiaBollettaOCR": "A",
+			"tipologiaConsumoDellaBollettaCorrenteOCR": "CA",
+			"tipologiaPdrOCR": "0",
+			"categoriaDUtilizzoOCR": "C3",
+			"codiceRemiOCR": "",
+			"consumoProgressivoOCR": "N/A",
+			"fornitoreUscenteOCR": "Gelsia",
+			"consumoDellaBollettaCorrenteSmcOCR": "",
+			"costoEnergiaOCR": "N/A",
+			"template": "N",
+			"tipologiaBolletta": "N/A",
+			"tipologiaConsumoDellaBollettaCorrente": "",
+			"consumoAnnuoOCR": "42,00"
+		},
+		"energy": {
+			"indirizzoFornituraCIVICO_mod": "Y",
+			"indirizzoFornituraCAP_mod": "Y",
+			"indirizzoFornituraCITTA_mod": "Y",
+			"indirizzoFornituraVIA_mod": "Y",
+			"categoriaDUtilizzo_mod": "Y",
+			"dataAttivazioneFornitura_mod": "Y",
+			"dataFineConsumo_mod": "Y",
+			"provinciaFornOCR_mod": "Y",
+			"consumoAnnuo_mod": "Y"
+		}
+	},
+	"products": [
+		{
+			"id": "211118LGFIXPOSTE",
+			"name": "Poste Dual Sostenibile",
+			"productStepId": "a3bf88e7-cce4-449c-8cac-5a2efc249ec4",
+			"catalogViewCode": ""
+		}
+	]
+}
